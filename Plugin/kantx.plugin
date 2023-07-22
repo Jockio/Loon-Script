@@ -1,0 +1,11 @@
+#!name=Vista看天下
+#!desc=Vista看天下会员解锁
+#!homepage=http://www.vistastory.com/
+#!author=Jockio
+#!icon=https://raw.githubusercontent.com/Jockio/Loon-Script/main/icons/vista.png
+
+[Script]
+http-response ^https?:\/\/open3\.vistastory\.com\/v3\/api\/(vip\/get_vip_info_and_recommend_mags|article\/article_detail2|my\/home\/get_home_center|vip\/get_vip_price_info|magazine\/mag_column_detail|magazine\/last_mag_2|magazine\/all_mag_page_3) requires-body=1,script-path=https://raw.githubusercontent.com/Jockio/Loon-Script/main/Script/Vister.js
+
+[MITM]
+hostname = open3.vistastory.com
