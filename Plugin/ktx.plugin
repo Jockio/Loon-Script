@@ -5,6 +5,6 @@
 #!icon=https://raw.githubusercontent.com/Jockio/Loon-Script/main/icons/vista.png
 
 [Script]
-^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(vip\/get_vip_info_and_recommend_mags|article\/article_detail\d|my\/home\/get_home_center|vip\/get_vip_price_info|magazine\/mag_column_detail|vip\/get_vip|magazine\/last_mag_\d|magazine\/all_mag_page_\d) url response-body https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/Vister/Script/Vister.js
+^https?:\/\/open3\.vistastory\.com\/v3\/api\/(vip\/get_vip_info_and_recommend_mags|article\/article_detail2|my\/home\/get_home_center|vip\/get_vip_price_info|magazine\/mag_column_detail|vip\/get_vip|magazine\/last_mag_2|magazine\/all_mag_page_3) url response-body https://raw.githubusercontent.com/lutqhysky/quantumultx/mylove/Vister/Script/Vister.js
 [MITM]
 hostname = open3.vistastory.com
