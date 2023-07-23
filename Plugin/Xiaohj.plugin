@@ -1,0 +1,11 @@
+#!name=小画家
+#!desc=小画家会员解锁
+#!homepage=https://yfamily.ml
+#!author=Jockio
+#!icon=https://raw.githubusercontent.com/Jockio/Loon-Script/main/icons/xiaohuajia.png
+
+[Script]
+http-response ^https?:\/\/artapi\.ihuman\.com\/artists\/client\/user\/v2\/(login|baseInfo) requires-body=1,script-path=https://raw.githubusercontent.com/Jockio/Loon-Script/main/Script/XiaoHuaJia.js
+
+[MITM]
+hostname = artapi.ihuman.com
