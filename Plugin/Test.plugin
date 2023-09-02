@@ -1,0 +1,11 @@
+#!name=test
+#!desc=test会员解锁
+#!homepage=https://yfamily.ml
+#!author=Jockio
+#!icon=https://raw.githubusercontent.com/Jockio/Loon-Script/main/icons/xiaohuajia.png
+
+[Script]
+http-response ^https?:\/\/artapi\.ihuman\.com\/artists\/h5\/admin\/v2\/user\/vip_info requires-body=1,script-path=https://raw.githubusercontent.com/Jockio/Loon-Script/main/Script/Test.js
+
+[MITM]
+hostname = artapi.ihuman.com
