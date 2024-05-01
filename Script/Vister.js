@@ -6,5 +6,5 @@
  作者：清清情
  下面，不用一级一级的去找了，直接像网球锤子，替换就可以了。。。！！！！
  */ 
-body = $response.body.replace(/isFree":0/g, 'isFree":1').replace(/isFreeMag":0/g, 'isFreeMag":1').replace(/isBuyMag":0/g, 'isBuyMag":1').replace(/expireVip":1/g, 'iexpireVip":0').replace(/isFree":0/g, 'isFree":1').replace(/isMiniVip":0/g, 'isMiniVip":1').replace(/isActive":0/g, 'isActive":1').replace(/isVip":0/g, 'isVip":1').replace(/endTime":\d{13}/g, 'endTime":4100726622000').replace(/isBuyMag":0/g, 'isBuyMag":1').replace(/isBuyArticle":0/g, 'isBuyArticle":1');
+body = $response.body.replace(/isFree":0/g, 'isFree":1').replace(/isfree":0/g, 'isfree":1').replace(/isFreeMag":0/g, 'isFreeMag":1').replace(/isBuyMag":0/g, 'isBuyMag":1').replace(/expireVip":1/g, 'iexpireVip":0').replace(/isFree":0/g, 'isFree":1').replace(/isMiniVip":0/g, 'isMiniVip":1').replace(/isActive":0/g, 'isActive":1').replace(/isVip":0/g, 'isVip":1').replace(/endTime":\d{13}/g, 'endTime":4100726622000').replace(/isBuyMag":0/g, 'isBuyMag":1').replace(/isBuyArticle":0/g, 'isBuyArticle":1');
 $done({body});
